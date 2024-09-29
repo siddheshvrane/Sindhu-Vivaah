@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f9f5f2;
+  box-sizing: border-box; /* Ensure padding doesn't affect width/height */
+}
+
+/* Full-screen sections */
+#root {
+  height: 100%; /* Ensure full height */
+  width: 100%;  /* Ensure full width */
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-page {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #da0133;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-nav {
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section {
+  position: relative;
+  height: 90vh;
+  background-image: url('https://www.theweddingshades.com/wp-content/uploads/2019/04/shraddha-summit-marathi-wedding-5-1024x683.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.btn-cta {
+  background-color: #feb60a;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.content-section {
+  padding: 50px;
+  background-color: white;
+}
+
+.content-section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.content-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

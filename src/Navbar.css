@@ -1,0 +1,91 @@
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 10px 20px; /* Top-bottom 10px, left-right 20px */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Navbar links */
+.navbar-links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px; /* Add some spacing between links */
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar-links a:hover {
+  color: #ff6f61;
+}
+
+/* Navbar logo or title */
+.navbar h1 {
+  font-size: 1.8rem;
+  color: #ff6f61;
+}
+
+
+/* Language button styles */
+.language-button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.language-button:hover {
+  color: #0056b3;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  left: auto; /* Override left positioning to avoid the dropdown cutting off */
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  max-height: 150px; /* Limit the dropdown height */
+  overflow-y: auto;  /* Enable vertical scroll */
+  z-index: 1000;
+}
+
+/* Ensure dropdown stays fully visible near screen edges */
+.language-dropdown-container {
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .language-dropdown {
+    right: auto;
+    left: -50px; /* Adjust positioning for smaller screens */
+  }
+}
+
+/* Language list styles */
+.language-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.language-list li {
+  padding: 10px; /* Consistent padding for dropdown items */
+  cursor: pointer;
+  text-align: center;
+}
+
+.language-list li:hover {
+  background-color: #f0f0f0;
+}
