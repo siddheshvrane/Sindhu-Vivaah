@@ -1,0 +1,34 @@
+.card {
+    width: 150px;
+    height: 150px;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    color:#da0133;
+    position: relative;
+  }
+  
+  .card-icon-container {
+    background-color: #feb60a;
+    border-radius: 50%;
+    padding: 2rem;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: relative;
+  }
+  
+  .card-icon-container i {
+    font-size: 2.5rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .card-description {
+    font-size: 0.9rem;
+    color:#da0133;
+  }
+  
