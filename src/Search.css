@@ -1,0 +1,10 @@
+
+.app-container {
+    display: flex;
+  }
+  
+  .profile-list {
+    margin-left: 20px;
+    width: 100%;
+  }
+  

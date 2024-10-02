@@ -15,7 +15,8 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 60px;
+  font-size: 19px;
 }
 
 .nav-links a {
