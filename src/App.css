@@ -1,24 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  color: white;
-}
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  font-family: Arial, sans-serif;
-  background-color: #f9f5f2;
-  box-sizing: border-box; /* Ensure padding doesn't affect width/height */
 }
 
-/* Full-screen sections */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f5f2;
+  box-sizing: border-box;
+}
+
 #root {
   height: 100%; /* Ensure full height */
   width: 100%;  /* Ensure full width */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Allow stacking of navbar and routes */
 }
+
+.navbar {
+  flex-shrink: 0; /* Prevent navbar from shrinking */
+}
+

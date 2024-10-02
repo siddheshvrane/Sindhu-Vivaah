@@ -22,7 +22,9 @@
   color: white;
   text-decoration: none;
 }
-
+.nav-links a:hover {
+  color: #d4af37; /* Color on hover */
+}
 .btn-nav {
   padding: 10px 20px;
   border: 1px solid white;
@@ -30,6 +32,7 @@
   text-decoration: none;
   color: white;
 }
+
 /* Language button styles */
 .language-button {
   background: none;

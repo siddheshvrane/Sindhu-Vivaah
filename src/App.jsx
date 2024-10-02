@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
 import Login from './Login';
-import Profile from './Profile';
-import './App.css';
+import Register from './Register'; // Ensure Register is imported correctly
 
 const App = () => {
   return (
@@ -13,8 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/profile" element={<Profile />} />
-        {/* Add other routes here if needed */}
+        <Route path="/register" element={<Register />} /> {/* Register route */}
       </Routes>
     </Router>
   );
