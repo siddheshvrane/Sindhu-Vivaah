@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProfileCard.css';
+import './Profilecard.css';
 
 const ProfileCard = ({ profile }) => {
   return (
@@ -12,7 +12,7 @@ const ProfileCard = ({ profile }) => {
       </div>
       <div className="profile-details">
         <h2>{profile.id} | {profile.name}</h2>
-        <ul>
+        <ul style={{ listStyleType: 'none', padding: 0, margin: '15px' }}>
           <li><strong>Age / Height:</strong> {profile.age} Years, {profile.height}ft</li>
           <li><strong>Religion:</strong> {profile.religion}</li>
           <li><strong>Caste:</strong> {profile.caste}</li>

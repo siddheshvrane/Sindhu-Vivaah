@@ -1,40 +1,54 @@
+
 .register-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #fff5e6;
-  }
-  
-  .register-container {
-    background-color: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .register-container h2 {
-    color: #c21807;
-    margin-bottom: 20px;
-  }
-  
-  .register-form input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #d4af37; /* Gold */
-    border-radius: 5px;
-  }
-  
-  .register-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #c21807;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f9f5f2;
+  padding: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box; 
+}
+
+.register-container h1 {
+  color: #feb60a;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form .MuiTextField-root {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #da0133;;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-form button:hover {
+  background-color: #ba002b;;
+}

@@ -1,36 +1,21 @@
 import React from 'react';
-import { TextField, Button, Container, Typography } from '@mui/material';
+import { TextField, Button, Container} from '@mui/material';
 import './Login.css';
 
-const Login = ({ currentLang }) => {
+const Login = () => {
   return (
     <div className="login-page">
-      <Container maxWidth="xs" className="login-container">
-        <Typography variant="h5" align="center" gutterBottom>
-          {currentLang.login.title}
-        </Typography>
-        <form className="login-form">
-          <TextField
-            label={currentLang.login.email}
-            variant="outlined"
-            fullWidth
-            required
-            margin="normal"
-          />
-          <TextField
-            label={currentLang.login.password}
-            type="password"
-            variant="outlined"
-            fullWidth
-            required
-            margin="normal"
-          />
-          <Button variant="contained" color="primary" fullWidth sx={{ mt: 2 }}>
-            {currentLang.login.button}
-          </Button>
-        </form>
-      </Container>
-    </div>
+    <Container maxWidth="sm" className="login-container">
+      <h1>Sign Up</h1>
+      <form className="login-form">
+        <TextField label="Email" variant="outlined" fullWidth required margin="normal" />
+        <TextField label="Password" type="password" variant="outlined" fullWidth required margin="normal" />
+        <Button variant="contained" color="primary" fullWidth className="register-button">
+          Sign Up
+        </Button>
+      </form>
+    </Container>
+  </div>
   );
 };
 

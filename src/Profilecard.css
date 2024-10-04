@@ -1,11 +1,12 @@
 .profile-card {
     display: flex;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     max-width: 800px;
-    margin-bottom: 20px;
+    margin: 20px;
     background-color: white;
+    color: black;
   }
   
   .profile-image img {
@@ -16,7 +17,7 @@
   }
   
   .profile-details {
-    margin-left: 20px;
+    margin-left: 50px;
   }
   
   .profile-actions button {
