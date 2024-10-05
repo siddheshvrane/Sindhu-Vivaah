@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
+  width: 100%;
   background-image: url(https://www.sahapedia.org/sites/default/files/styles/share_1200_630/public/001%20Invocation%20to%20Ganapathi_2.jpg?itok=7I0Hy_KW);
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-attachment: fixed;
   padding: 50px;
   font-family: 'Poppins', sans-serif;
 }

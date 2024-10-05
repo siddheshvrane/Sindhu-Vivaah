@@ -22,6 +22,7 @@
 .nav-links a {
   color: white;
   text-decoration: none;
+  font-weight: 400;
 }
 .nav-links a:hover {
   color: #d4af37; /* Color on hover */
