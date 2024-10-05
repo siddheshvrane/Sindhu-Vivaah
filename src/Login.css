@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
-  background-color: #f9f5f2;
+  background-image: url(https://www.sahapedia.org/sites/default/files/styles/share_1200_630/public/001%20Invocation%20to%20Ganapathi_2.jpg?itok=7I0Hy_KW);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 50px;
   font-family: 'Poppins', sans-serif;
 }
@@ -22,6 +24,7 @@
   color: #feb60a;
   margin-bottom: 20px;
   text-align: left;
+  font-weight: 400;
 }
 
 .register-form {

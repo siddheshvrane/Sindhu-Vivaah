@@ -1,7 +1,7 @@
 .filter-sidebar {
     padding: 20px;
     border-right: 1px solid #ddd;
-    width: 300px;
+    width: 550px;
   }
   
   .filter-item {
@@ -13,16 +13,16 @@
   }
   
   .filter-item input[type="text"] {
-    width: calc(100% - 70px);
+    width: 250px;
     padding: 10px;
-    margin-right: 5px;
+    margin-right: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   .search-btn {
     padding: 10px 20px;
-    background-color: #ff5722;
+    background-color: #feb60a;
     color: white;
     border: none;
     border-radius: 5px;

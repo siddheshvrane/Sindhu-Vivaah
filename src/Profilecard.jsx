@@ -9,9 +9,12 @@ const ProfileCard = ({ profile }) => {
           src={profile.image}
           alt={profile.name}
         />
+        <button className="view-full-profile-btn">View Full Profile</button>
       </div>
       <div className="profile-details">
-        <h2>{profile.id} | {profile.name}</h2>
+        <h2>
+          <span className="profile-id">{profile.id}</span> | {profile.name}
+        </h2>
         <ul style={{ listStyleType: 'none', padding: 0, margin: '15px' }}>
           <li><strong>Age / Height:</strong> {profile.age} Years, {profile.height}ft</li>
           <li><strong>Religion:</strong> {profile.religion}</li>
@@ -22,11 +25,11 @@ const ProfileCard = ({ profile }) => {
           <li><strong>Occupation:</strong> {profile.occupation}</li>
           <li><strong>Annual Income:</strong> {profile.annualIncome}</li>
         </ul>
-        <div className="profile-actions">
-          <button className="shortlist-btn">⭐ Shortlist</button>
-          <button className="like-btn">✔ Like</button>
-          <button className="unlike-btn">✖ Unlike</button>
-        </div>
+      </div>
+      <div className="profile-actions">
+        <button className="shortlist-btn">⭐ Shortlist</button>
+        <button className="like-btn">✔ Like</button>
+        <button className="unlike-btn">✖ Unlike</button>
       </div>
     </div>
   );

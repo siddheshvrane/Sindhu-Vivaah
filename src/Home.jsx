@@ -20,32 +20,20 @@ const Home = () => {
         <h1 className="main-heading">Find your Special Someone</h1>
         <div className="cards-container">
         <Card
-          icon="fa-pencil-alt" // You can change this as per your icon library
+          icon="fa-solid fa-arrow-right-to-bracket" style={{color: "#ffffff",}}
           title="Sign Up"
           description="Register for free & put up your Matrimony Profile"
         />
         <Card
           icon="fa-user-check"
           title="Connect"
-          description="Select & Connect with Matches you like"
+          description="Select & Connect with Matches you like" 
         />
         <Card
           icon="fa-comment"
           title="Interact"
           description="Become a Premium Member & Start a Conversation"
         />
-          <div>
-            <h3>Sign Up</h3>
-            <p>Register for free & put up your Matrimony Profile</p>
-          </div>
-          <div>
-            <h3>Connect</h3>
-            <p>Select & Connect with Matches you like</p>
-          </div>
-          <div>
-            <h3>Interact</h3>
-            <p>Become a Premium Member & Start a Conversation</p>
-          </div>
         </div>
       </div>
     </div>
